@@ -14,7 +14,7 @@ export const authOptions = {
     signIn: '/auth/signin'
   },
   
-  secret: process.env.SERCET,
+  secret: process.env.SECRET,
 
   callbacks: {
     async session({session, token}){
